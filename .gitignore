@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules and build outputs
+node_modules/
+dist/
+dist-ssr/
+build/
+
+# Local environment files
+.env
+.env.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Temporary & upload folders
+uploads/
+temp/
+
+# Vite cache
+.vite/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS/system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional: Ignore macOS Spotlight or Linux Trash files
+.AppleDouble
+.LSOverride
+.Trashes
+
+# Optional: Ignore generated coverage/test files
+coverage/
+*.lcov
+
+# Ignore typescript build outputs if used
+*.tsbuildinfo
