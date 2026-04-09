@@ -4,7 +4,7 @@ import requests
 import schedule
 import pywhatkit as kit
 
-API_KEY = "AIzaSyCPpFkdFzt9A0Jb7J3ioUvc8su0Wxw-3i8"
+API_KEY = "API_KEY"
 TRACKING_FILE = "tracking_data.json"
 MILESTONES = [10000,100000,1000000]
 def get_video_stats(video_id):
