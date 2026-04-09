@@ -20,7 +20,7 @@ nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
 
 # Connect to MongoDB Atlas
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/videoanalysis")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb_URL/videoanalysis")
 client = MongoClient(MONGO_URI)
 db = client['videoanalysis']
 analysis_collection = db['analyses']
