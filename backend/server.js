@@ -264,7 +264,7 @@ app.get("/api/youtube-analysis", async (req, res) => {
   const { video_id } = req.query;
   if (!video_id) return res.status(400).json({ error: "Video ID is required" });
 
-  const YOUTUBE_API_KEY = "AIzaSyCPpFkdFzt9A0Jb7J3ioUvc8su0Wxw-3i8"; // ⛔ Replace with your key
+  const YOUTUBE_API_KEY = "API_KEY"; // ⛔ Replace with your key
   const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id=${video_id}&key=${YOUTUBE_API_KEY}`;
 
   try {
